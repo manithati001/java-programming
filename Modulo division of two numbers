@@ -1,0 +1,28 @@
+// java program to find the modulodivision of two numbers
+
+import java.util.Scanner;
+
+public class modulodivision_two_numbers {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the first number:");
+        int n1=sc.nextInt();
+        System.out.println("Enter the second number:");
+        int n2=sc.nextInt();
+        if (n2==0){
+            System.out.println("Error! modulodivision is not possible");
+        }
+        else{
+            double moddiv=n1%n2;
+            System.out.println("Modulo division of two numbers ="+moddiv);
+        }
+    }
+}
+
+
+output:
+Enter the first number:
+4
+Enter the second number:
+2
+Modulo division of two numbers =0.0
