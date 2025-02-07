@@ -1,0 +1,31 @@
+// java program to find the quotient and remainder of two numbers
+
+import java.util.Scanner;
+
+public class quotient_remainder {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the dividend value:");
+        int dividend=sc.nextInt();
+        System.out.println("Enter the divisor value:");
+        int divisor=sc.nextInt();
+        if (divisor==0){
+            System.out.println("Error! quotient and remainder not possible");
+        }
+        else{
+            double quotient=dividend/divisor;
+            double remainder=dividend%divisor;
+            System.out.println("Quotient ="+quotient);
+            System.out.println("Remainder ="+remainder);
+        }
+    }
+}
+
+
+output:
+Enter the dividend value:
+4
+Enter the divisor value:
+2
+Quotient =2.0
+Remainder =0.0
