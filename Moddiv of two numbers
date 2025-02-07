@@ -1,0 +1,14 @@
+// java program to find the moddiv of two numbers
+
+public class moddiv_two_numbers {
+    public static void main(String[] args) {
+        int n1=4;
+        int n2=2;
+        double moddiv=n1%n2;
+        System.out.println("Moddiv of two numbers ="+moddiv);
+    }
+}
+
+
+output:
+Moddiv of two numbers =0.0
