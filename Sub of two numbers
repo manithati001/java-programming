@@ -1,0 +1,14 @@
+// java program to find the sub of two numbers
+
+public class sub_two_numbers {
+    public static void main(String[] args) {
+        int n1=5;
+        int n2=6;
+        int difference=n1-n2;
+        System.out.println("Sub of two numbers ="+difference);
+    }
+}
+
+
+output:
+Sub of two numbers =-1
