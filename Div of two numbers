@@ -1,0 +1,14 @@
+// java program to div of two numbers
+
+public class div_two_numbers {
+    public static void main(String[] args) {
+        int n1=4;
+        int n2=2;
+        double div=n1/n2;
+        System.out.println("Div of two numbers ="+div);
+    }
+}
+
+
+output:
+Div of two numbers =2.0
